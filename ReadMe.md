@@ -7,7 +7,7 @@
 <img width="1842" height="982" alt="MatrixMult_TPUJustification" src="https://github.com/user-attachments/assets/c0690465-f09f-4be9-bf62-2a30b95e6f49" />
 
 ## Project Overview
-Modern software engineering requires a deep understanding of hardware constraints. High-throughput data pipelines, where some data processing involves the steps and are very CPU-intensive operations, they frequently run into hardware bottlenecks due to arithmetic logic unit (ALU) capacity and memory bandwidth.
+Modern software engineering requires a deep understanding of hardware constraints. High-throughput data pipelines, where some data processing involves the same steps and are heavy compute workloads, they frequently run into hardware bottlenecks due to arithmetic logic unit (ALU) capacity and memory bandwidth.
 
 This repository features two distinct Java 21 based projects to use its concurrency features to optimally use all cores with effective code and still get CPU saturated:
 * **Parallel Stream CPU Core Saturation (`CpuHeavyDecoderDemo`)**: Simulates high-density streaming pipeline and then makes it CPU intensive operation, maximizing core utilization and tracking real-time telemetry.
