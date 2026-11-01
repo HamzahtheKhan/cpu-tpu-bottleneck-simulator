@@ -1,8 +1,8 @@
-# CPU Hardware Bottleneck Simulator
+# CPU Bottleneck Simulators
 
 ## Sample Execution & Telemetry Results 
 
-### Demo 1: Simulating a CPU intensive operation from a high throughput streaming pipeline
+### Demo 1: Simulating a CPU intensive operation from a simulated high throughput stream
 <img width="1867" height="987" alt="CpuDecoder" src="https://github.com/user-attachments/assets/a3ce203b-a681-4340-b7d9-8c6d5673c06e" />
 
 ### Demo 2: Matrix Multiplication Bottleneck Scaling , why TPU needed  
