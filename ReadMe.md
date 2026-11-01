@@ -3,10 +3,11 @@
 ## Sample Execution & Telemetry Results 
 
 ### Demo 1: Simulating a CPU intensive operation from a high throughput streaming pipeline
-![Demo 1 Screenshot](docs/demo1.png)
+<img width="1867" height="987" alt="CpuDecoder" src="https://github.com/user-attachments/assets/a3ce203b-a681-4340-b7d9-8c6d5673c06e" />
 
 ### Demo 2: Matrix Multiplication Bottleneck Scaling , why TPU needed  
-![Demo 2 Screenshot](docs/demo2.png)
+<img width="1842" height="982" alt="MatrixMult_TPUJustification" src="https://github.com/user-attachments/assets/c0690465-f09f-4be9-bf62-2a30b95e6f49" />
+
 
 ## 📂 Project Structure
 
