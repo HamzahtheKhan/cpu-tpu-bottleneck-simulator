@@ -1,4 +1,4 @@
-# CPU Bottleneck Simulators
+## CPU Bottleneck Simulators
 
 ### Demo 1: Simulating a CPU intensive operation from a simulated high throughput stream
 <img width="1867" height="987" alt="CpuDecoder" src="https://github.com/user-attachments/assets/a3ce203b-a681-4340-b7d9-8c6d5673c06e" />
@@ -13,11 +13,11 @@ This repository features two distinct Java 21 based projects to use its concurre
 * **Parallel Stream CPU Core Saturation (`CpuHeavyDecoderDemo`)**: Simulates high-density streaming pipeline and then makes it CPU intensive operation, maximizing core utilization and tracking real-time telemetry.
 * **Matrix Multiplication Memory Wall (`MatrixMultiBottleneck`)**: Analyzes $\mathcal{O}(n^3)$ computational scaling, basically it shows how CPU usage spikes as matrix multiplication scales up, illustrating why specialized chips like Google TPUs were developed. 
 
-## Telemetry (`CpuMonitor`)
+### Telemetry (`CpuMonitor`)
 To measure performance objectively rather than relying on estimation, the project includes a dedicated telemetry component utilizing Java's `OperatingSystemMXBean`.  
 `OperatingSystemMXBean` is like a built-in "stethoscope", a special Java Management API, allowing the code running within JVM to go outside via low footprint thread like this, to check with my OS that how hard the CPU is running and get the max CPU during the main run which is actually a JVM execution.
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 cpu-tpu-bottleneck-simulator/
